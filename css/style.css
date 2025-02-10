@@ -70,6 +70,7 @@ img {
 
 .header-container {
     display: flex;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -77,6 +78,7 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -282,7 +284,7 @@ button {
     text-align: center;
     color: #2e2f42;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .portfolio-menu {
     display: flex;
@@ -315,6 +317,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-text {
     font-weight: 400;
@@ -373,4 +376,9 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+}
+
+.footer a {
+    display: inline-block; 
+    margin-bottom: 16px;
 }
