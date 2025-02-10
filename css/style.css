@@ -237,12 +237,16 @@ button {
 .team-menu {
     display: flex;
     gap: 24px;
-
 }
 
 .team-item {
     background-color: #ffffff;
-    text-align: center;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-info {
+    padding: 32px 0;
+    margin-bottom: 8px;
 }
 
 .team-menu-img {
@@ -256,6 +260,7 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-bottom: 8px;
+    text-align: center;
 }
 
 .team-menu-text {
@@ -265,6 +270,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     padding-bottom: 32px;
+    text-align: center; 
 }
 
 
