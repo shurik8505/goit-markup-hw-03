@@ -37,6 +37,7 @@ img {
     
     border-bottom: 1px solid #e7e9fc;
     background: #fff;
+    padding: 0 15px;
 }
 
 .header-nav {
@@ -71,14 +72,12 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+     padding: 24px 0;
 }
 
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -153,6 +152,7 @@ img {
     margin: 0 auto;
     margin-bottom: 48px;
 }
+
 .hero-btn {
     background-color: #4d5ae5;
     border: none;
@@ -186,6 +186,19 @@ button {
 }
 
 .advantages-title {
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages-menu {
