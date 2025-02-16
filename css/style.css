@@ -81,7 +81,6 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
-      padding: 24px 0 24px;
 }
 
 .header-menu-link {
@@ -109,7 +108,7 @@ img {
 }
 
 .header-menu-item {
-    
+    padding: 24px 0 24px;
 }
 
 .header-address {
