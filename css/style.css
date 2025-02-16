@@ -88,7 +88,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: #2e2f42; 
-    padding: 24px 0 24px;
 }
 
 .header-menu-link:focus {
@@ -104,8 +103,11 @@ img {
 }
 
 .header-menu-item:active {
-    text-decoration: underline;  
-    padding: 24px 0;
+    text-decoration: underline; 
+}
+
+.header-menu-item {
+    padding: 24px 0 24px;
 }
 
 .header-address {
