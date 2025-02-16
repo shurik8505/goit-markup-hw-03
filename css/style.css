@@ -45,7 +45,6 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 24px 0 24px;
 }
 
 .header-nav {
@@ -107,6 +106,7 @@ img {
 }
 
 .header-menu-item {
+     padding: 24px 0 24px;
 }
 
 .header-address {
