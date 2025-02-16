@@ -81,6 +81,7 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .header-menu-link {
@@ -89,6 +90,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: #2e2f42; 
+    padding: 24px 0 24px;
 }
 
 .header-menu-link:focus {
@@ -108,7 +110,7 @@ img {
 }
 
 .header-menu-item {
-    padding: 24px 0 24px;
+    
 }
 
 .header-address {
