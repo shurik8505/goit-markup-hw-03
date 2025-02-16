@@ -52,7 +52,7 @@ img {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    padding: 24px 0 24px;
+  
 }
 
 .header-logo {
@@ -81,6 +81,7 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
+      padding: 24px 0 24px;
 }
 
 .header-menu-link {
