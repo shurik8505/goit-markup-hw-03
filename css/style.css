@@ -31,24 +31,29 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 /* =============HEADER================= */
 
 .header {
-    
     border-bottom: 1px solid #e7e9fc;
     background: #fff;
     padding: 0 15px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .header-nav {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    }
+}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -71,12 +76,6 @@ img {
     }
 
 .header-logo-img {
-}
-
-.header-container {
-    display: flex;
-    align-items: center;
-     padding: 24px 0;
 }
 
 .header-menu-list {
@@ -110,6 +109,8 @@ img {
 
 .header-address {
     font-style: normal;
+    display: flex; 
+    align-items: center;
 }
 
 .header-address-list {
@@ -186,8 +187,7 @@ button {
 .advantages {
     padding-top: 120px;
     padding-bottom: 120px;
-    display: flex;
-}
+  }
 
 .advantages-title {
 }
